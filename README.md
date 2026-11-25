@@ -1,4 +1,4 @@
-# Spraylite — Fragrance Store Homepage
+# Spraylite — Fragrance Store Homepage  
 
 A responsive e-commerce homepage for **Spraylite**, a fictional premium fragrance and personal-care brand. Built with plain HTML, CSS and vanilla JavaScript.
 
