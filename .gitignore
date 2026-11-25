@@ -1,0 +1,13 @@
+# Raw stock footage used while editing; the site ships only the trimmed hero clip in assets/videos/.
+assets/images/videos/
+
+# Font kit from a different project (Plus Jakarta Sans / Schibsted Grotesk); the site uses Poppins.
+assets/fonts/PlusJakartaSans/
+assets/fonts/SchibstedGrotesk/
+assets/fonts/fonts.css
+assets/fonts/README.txt
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/

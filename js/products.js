@@ -1,0 +1,86 @@
+﻿/**
+ * Spraylite catalogue data, kept separate from interaction logic (js/app.js).
+ * Prices are in Indian Rupees (whole rupees).
+ * `category` drives the family filters; `badge` and `rank` (best-seller position) are optional.
+ */
+const CATEGORIES = Object.freeze([
+  { id: "floral", label: "Floral", description: "Rose, jasmine and soft white petals" },
+  { id: "woody", label: "Woody", description: "Amber, cedar and smoked vanilla" },
+  { id: "fresh", label: "Fresh", description: "Vetiver, rain and green citrus" },
+  { id: "spicy", label: "Spicy", description: "Saffron, cardamom and sandalwood" },
+]);
+
+const PRODUCTS = Object.freeze([
+  {
+    id: "velvet-ember",
+    rank: 1,
+    name: "Velvet Ember",
+    family: "Amber Woody",
+    category: "woody",
+    notes: "Amber, tonka bean, smoked vanilla",
+    size: "50 ml",
+    price: 3450,
+    badge: "Bestseller",
+    image: "assets/images/velvet-ember.svg",
+    alt: "Velvet Ember eau de parfum in a rectangular amber glass bottle with a gold cap",
+  },
+  {
+    id: "rose-noir",
+    rank: 2,
+    name: "Rose Noir",
+    family: "Floral",
+    category: "floral",
+    notes: "Damask rose, oud, pink pepper",
+    size: "50 ml",
+    price: 2990,
+    image: "assets/images/rose-noir.svg",
+    alt: "Rose Noir eau de parfum in an arched burgundy glass bottle with a black cap",
+  },
+  {
+    id: "monsoon-vetiver",
+    name: "Monsoon Vetiver",
+    family: "Fresh Earthy",
+    category: "fresh",
+    notes: "Vetiver, wet earth, green mandarin",
+    size: "100 ml",
+    price: 4250,
+    badge: "New",
+    image: "assets/images/monsoon-vetiver.svg",
+    alt: "Monsoon Vetiver eau de parfum in a tapered green glass bottle with a wooden cap",
+  },
+  {
+    id: "saffron-dusk",
+    rank: 3,
+    name: "Saffron Dusk",
+    family: "Spicy Oriental",
+    category: "spicy",
+    notes: "Saffron, cardamom, sandalwood",
+    size: "75 ml",
+    price: 3890,
+    image: "assets/images/saffron-dusk.svg",
+    alt: "Saffron Dusk eau de parfum in a faceted saffron-orange glass bottle with a gold cap",
+  },
+  {
+    id: "jasmine-veil",
+    name: "Jasmine Veil",
+    family: "White Floral",
+    category: "floral",
+    notes: "Jasmine sambac, neroli, white musk",
+    size: "30 ml",
+    price: 1950,
+    image: "assets/images/jasmine-veil.svg",
+    alt: "Jasmine Veil eau de parfum in a round pale-gold glass flacon with an ivory cap",
+  },
+  {
+    id: "cedar-tide",
+    name: "Cedar Tide",
+    family: "Aquatic Woody",
+    category: "woody",
+    notes: "Sea salt, Atlas cedar, bergamot",
+    size: "100 ml",
+    price: 3650,
+    badge: "New",
+    image: "assets/images/cedar-tide.svg",
+    alt: "Cedar Tide eau de parfum in a square teal glass bottle with a black cap",
+  },
+]);
