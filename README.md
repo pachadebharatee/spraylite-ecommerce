@@ -3,7 +3,7 @@
 A responsive e-commerce homepage for **Spraylite**, a fictional premium fragrance and personal-care brand. Built with plain HTML, CSS and vanilla JavaScript for a frontend developer assessment.
 
 - **Live demo:** https://spraylite-ecommerce-demoprev.vercel.app/
-- **Repository:** https://github.com/pachadebharatee/spraylite-ecommerce-demo
+- **Repository:** https://github.com/pachadebharatee/spraylite-ecommerce
 
 > This is a frontend assessment project. Products, prices, reviews and contact details are demonstration data. There is no backend, checkout or payment: the cart and wishlist live in the browser, and the newsletter form only validates input.
 
